@@ -1,5 +1,5 @@
 {
-  "name": "usbpermission-plugin",
+  "name": "qzutility",
   "version": "0.0.1",
   "description": "NA",
   "main": "dist/plugin.cjs.js",

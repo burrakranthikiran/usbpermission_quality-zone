@@ -7,4 +7,14 @@ export class UsbpermissionWeb extends WebPlugin implements UsbpermissionPlugin {
     console.log('ECHO', options);
     return options;
   }
+  async getUsbpermission(filter: string): Promise<{ results: any[] }> {
+    console.log('filter: ', filter);
+    return {
+      results: [{
+        firstName: 'Dummy',
+        lastName: 'Entry',
+        telephone: '123456'
+      }]
+    };
+  }
 }
